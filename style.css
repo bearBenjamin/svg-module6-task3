@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.colored-grid {
+    overflow: hidden;
+}
+
+@keyframes pulse {
+    0%, 100% { r: 30; }
+    25%      { r: 15; }
+    50%      { r: 30; }
+    75%      { r: 45; }
+}
+
+.pattern-circle {
+    animation: pulse 3s ease-in-out infinite;
+}
+
+.row-1 { animation-delay: 0s; }
+.row-2 { animation-delay: 0.5s; }
+.row-3 { animation-delay: 1s; }
+.row-4 { animation-delay: 1.5s; }
